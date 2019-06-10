@@ -10,10 +10,12 @@ h1{
 	font-size: 3em;
 	text-align: center;
 }
+
 h2{
 	font-size: 1em;
 	text-align: left;
 }
+
 p{
 	font-size: .9rem;
 }
@@ -37,16 +39,17 @@ div{
 	padding: 1em .75em;
 	text-decoration: none;
 	color: #fff;
-
 }
 
 .card_bottom{
 	display: flex;
 	flex-flow:column;
 }
+
 .card_head{
 	flex:0;
 }
+
 .card_para{
 	flex:1 0 auto;
 }
@@ -61,13 +64,8 @@ div{
 	max-width:1050px;	
 }
 
-#logo{
-	width: 800px;
-	margin: auto;
-}
-
 .card{
-	flex:1; /* */
+	flex: 1; /* */
 	display: flex;	/* make the contents controllable by flexbox*/
 	flex-flow:column;	/* */
 	min-width: 240px; /**/
@@ -84,10 +82,10 @@ div{
 	width:100%;
 	text-align: center;
 }
+
 #copyright{
 	margin-top:10px;
 	margin-bottom:10px;
-
 }
 
 /*************************
@@ -100,6 +98,7 @@ nav{
 	margin: 30px auto;
 	width: 100%;
 }
+
 ul{
 	display: flex;
 	justify-content:space-between;
@@ -113,6 +112,7 @@ ul{
 	list-style-type: none; /*Remove Bullets*/
 	padding: 0;	
 }
+
 li{
 	flex:1;
 	height: 30px;
