@@ -16,6 +16,10 @@ h2{
 	text-align: left;
 }
 
+.h2_font_size {
+	font-size: 2em;
+}
+
 p{
 	font-size: .9rem;
 }
@@ -87,6 +91,15 @@ div{
 	margin-top:10px;
 	margin-bottom:10px;
 }
+
+.highlight_p {
+	background-color: red;
+}
+
+.highlight_h2 {
+	background-color: lightblue;
+}
+
 
 /*************************
 Navigation
